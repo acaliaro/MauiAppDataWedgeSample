@@ -30,8 +30,8 @@ namespace MauiAppDataWedgeSample.Services
             context.SendBroadcast(i);
         }
 #endif
-#if ANDROID
 
+#if ANDROID
         public static void SwitchToProfile(Context context, string profile)
         {
             Intent i = new();
